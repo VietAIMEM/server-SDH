@@ -13,3 +13,4 @@ python-jose
 email-validator
 python-dotenv
 python-docx
+pdfminer.six
