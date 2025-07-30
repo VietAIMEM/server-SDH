@@ -12,3 +12,4 @@ unstructured
 python-jose
 email-validator
 python-dotenv
+python-docx
