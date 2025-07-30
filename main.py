@@ -5,14 +5,14 @@ from fastapi.exceptions import RequestValidationError
 from pathlib import Path
 import pandas as pd
 import mimetypes
-from server.models import LoginRequest, UserCreate, UserUpdate, UserRegister
-from server.utils import (
+from models import LoginRequest, UserCreate, UserUpdate, UserRegister
+from utils import (
     normalize_filename, save_csv, next_id, get_abs_path, authenticate,
     create_access_token, verify_token, find_chunks_and_answer,
     find_related_file, run_chunk_pipeline, register_user
 )
 from fastapi.responses import StreamingResponse
-from server.utils import stream_chunks_and_answer
+from utils import stream_chunks_and_answer
 # ====================== INIT ======================
 app = FastAPI()
 
