@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.pt
+data/
+chunk_viet/
+*.csv
+.env
